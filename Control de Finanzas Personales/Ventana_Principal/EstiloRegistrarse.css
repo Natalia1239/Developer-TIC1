@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.VentanaPrincipal{
+    width:400px;
+    background-color: rgb(222, 239, 240);
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family:"Calibri"; 
+    border-radius: 0.2cm;
+    transform: translateX(92%);
+
+}
+
+
+.boton{
+    cursor: pointer;
+    background-color: #2d67d4;
+    color: #ffffff; 
+    border: none; 
+    padding: 0.245px 130px;
+    font-size: 20px;
+    border-radius: 0.2cm;
+    font-family:"Calibri";
+
+}
+
+.Decoracion{
+    text-decoration: none;
+    color: #187AEF;
+}
+
+.boton:hover{
+    background: rgb(95, 123, 160);
+}
+
+.parrafo{
+    float:left;
+    margin: 10px;
+    font-size: 17px;
+}
+.link{
+    margin: 15px;
+    float:right;
+    font-size: 17px;
+    text-decoration: none;
+    color: #187AEF;
+}
+.parrafo2{
+    margin: 15px;
+    font-size: 17px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 15px;
+    width: 93.5%;
+    padding: 12px;
+    border: none;
+
+}
+.parrafo3{
+    
+    text-align: justify;
+}
+.input-contenedor{
+    margin-bottom: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+.input-contenedor-desplegable{
+    margin-bottom: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+.contenedor-desplegable{
+    font-size: 15px;
+    width: 100%;
+    padding: 1px;
+    border: none;
+    font-family:"Calibri";
+
+}
