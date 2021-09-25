@@ -1,0 +1,6 @@
+CONTROL DE FINANZAS PERSONALES
+by G3-DEVELOPER TIC
+
+Proyecto de Grupo
+Ciclo 3 - Mision TIC 2022 - UCALDAS
+
