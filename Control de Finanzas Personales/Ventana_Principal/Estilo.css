@@ -21,10 +21,6 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     transform: translateX(40%);
 
 }
-.linea{
-    transform: translateZ(100%);
-    margin-top: 50px;
-}
 
 .boton{
     cursor: pointer;
@@ -64,7 +60,9 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     font-size: 17px;
 }
 input[type="text"],
-input[type="password"]{
+input[type="password"],
+input[type="int"],
+input[type="email"]{
     font-size: 15px;
     width: 93.5%;
     padding: 12px;
