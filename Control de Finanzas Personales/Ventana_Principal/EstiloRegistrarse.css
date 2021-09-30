@@ -12,12 +12,12 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 .VentanaPrincipal{
     width:400px;
     background-color: rgb(222, 239, 240);
-    padding: 40px;
-    margin-top: 30px;
+    padding: 50px;
+    margin-top: 60px;
     border-radius: 4px;
     font-family:"Calibri"; 
     border-radius: 0.2cm;
-    transform: translateX(92%);
+    transform: translateX(85%);
 
 }
 
