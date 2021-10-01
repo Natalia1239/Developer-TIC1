@@ -17,11 +17,11 @@ form{
     width:600px;
     background-color: rgb(255, 255, 255);
     padding: 50px;
-    margin-top: 40px;
+    margin-top: 100px;
     border-radius: 4px;
     font-family:"Calibri"; 
     border-radius: 0.2cm;
-    height: 480px;
+    height: 350px;
 }
 .metododepago{
     height: 80px;
@@ -112,7 +112,7 @@ input[type="radio"]{
     margin-left: 25%;
 }
 #tres{
-    margin-left: 15%;
+    margin-left: 20%;
 }
 .boton{
     cursor: pointer;
