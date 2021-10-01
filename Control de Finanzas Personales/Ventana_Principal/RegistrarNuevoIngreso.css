@@ -15,13 +15,16 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 form{
 
     width:600px;
-    background-color: rgb(222, 239, 240);
+    background-color: rgb(255, 255, 255);
     padding: 50px;
-    margin-top: 60px;
+    margin-top: 40px;
     border-radius: 4px;
     font-family:"Calibri"; 
     border-radius: 0.2cm;
-
+    height: 480px;
+}
+.metododepago{
+    height: 80px;
 }
 
 input[type="date"],
@@ -39,6 +42,13 @@ input[type="date"],
     margin: auto;
     font-size: 20px;
 }
+input[type="radio"]{
+    font-size: 20px;
+}
+.radioboton{
+    width: 100%;
+    height: 10%;
+}
 select{
     width: 42%;
     height: 50%;
@@ -53,6 +63,9 @@ select{
     font-size: 20px;
 
 
+}
+hr{
+   color: 1px solid #bebebe; 
 }
 .Formulario{
     font-size: 19px;
@@ -90,7 +103,29 @@ select{
     margin-right: 0px;
     float:left;
 }
+input[type="radio"]{
+    
+    font-size: 20px;
+}
+#uno{
+    float: left;
+}
+#dos{
+    margin-left: 25%;
+}
+#tres{
+    margin-left: 15%;
+}
+.boton{
+    cursor: pointer;
+    background-color: #2d67d4;
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 100px;
+    font-size: 20px;
+    border-radius: 0.2cm;
+    font-family:"Calibri";
 
-
+}
 
 

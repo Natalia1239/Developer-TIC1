@@ -37,8 +37,8 @@
         <br>
         <font size="4"color="#187AEF"><b>Categoria</b>
         <br>
-        <select id="Categoria"required>
-            <option >Seleccionar categoria</option>
+        <select id="Categoria" required>
+            <option selected disabled>Seleccionar categoria</option>
             <option >Viajes</option>
             <option >Salud</option>
             <option >Comida</option>
@@ -51,6 +51,22 @@
         <font color="#187AEF"><b>Monto</b>
         <br />
         <input type="number"  placeholder="0.00$" min="1000" step="50"required /></font>
+      </div>
+      <div>
+          <hr class="hr">
+      </div>
+      <div class="metododepago">
+        <br>
+        <font size="5"color="#187AEF"><b>Metodo de pago</b></font>
+        <br>
+      </div>
+      <div class="radioboton">
+        <input type="radio" name="metododepago" id="uno"><b> Efectivo</b></input>
+        <input type="radio" name="metododepago" id="dos"><b> Tarjeta de crédito</b></input>
+        <input type="radio" name="metododepago" id="tres"><b> Tarjeta de débito</b></input>      
+      </div>
+      <div>
+          <center><button class="boton">Agregar</button></center>
       </div>
     </form>
   </body>
