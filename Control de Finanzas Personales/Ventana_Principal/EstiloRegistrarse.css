@@ -1,4 +1,5 @@
 body{
+
     margin: 0;
     padding: 0;
     background: #000046;  /* fallback for old browsers */
@@ -88,13 +89,5 @@ input[type="email"]{
     border: 1px solid #aaa;
     border-radius: 5px;
     margin: 15px;
-
-}
-.contenedor-desplegable{
-    font-size: 15px;
-    width: 100%;
-    padding: 1px;
-    border: none;
-    font-family:"Calibri";
 
 }
