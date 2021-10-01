@@ -10,6 +10,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     font-family: sans-serif;
 }
 .VentanaPrincipal{
+
     width:400px;
     background-color: rgb(222, 239, 240);
     padding: 40px;
@@ -19,6 +20,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     border-radius: 0.2cm;
     float:left;
     transform: translateX(40%);
+
 
 }
 

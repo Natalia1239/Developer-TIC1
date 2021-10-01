@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+form{
+
+    width:700px;
+    background-color: rgb(222, 239, 240);
+    padding: 50px;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family:"Calibri"; 
+    border-radius: 0.2cm;
+
+}
+
+input[type="date"],
+[type="time"]{
+    width: 50%;
+    height: 50%;
+    background: none;
+    padding-top: 20px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #bebebe;
+    font-family: "Calibri";
+    color: #afafaf;
+    margin: auto;
+}
+.Formulario{
+    font-size: 19px;
+    margin-top: 30px;
+    width: 500px;
+    padding: auto;
+    border:50px;
+    height: auto;
+}
+.Volver{
+    text-decoration: none;
+    color:#187AEF;
+    font-size: 23px;
+    float:right;
+    position: relative;
+    top: -40px;
+    left: 30px;
+    font-family: Verdana ;
+}
+
+
+
