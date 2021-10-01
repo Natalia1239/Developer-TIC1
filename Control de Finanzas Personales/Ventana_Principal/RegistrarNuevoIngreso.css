@@ -14,7 +14,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 }
 form{
 
-    width:700px;
+    width:500px;
     background-color: rgb(222, 239, 240);
     padding: 50px;
     margin-top: 60px;
@@ -26,8 +26,8 @@ form{
 
 input[type="date"],
 [type="time"]{
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 100%;
     background: none;
     padding-top: 20px;
     border: none;
@@ -36,14 +36,15 @@ input[type="date"],
     font-family: "Calibri";
     color: #afafaf;
     margin: auto;
+
 }
 .Formulario{
     font-size: 19px;
-    margin-top: 30px;
     width: 500px;
-    padding: auto;
-    border:50px;
     height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 .Volver{
     text-decoration: none;
@@ -54,6 +55,15 @@ input[type="date"],
     top: -40px;
     left: 30px;
     font-family: Verdana ;
+}
+#Hora{
+    margin-left: 160px;
+    position: relative;
+    right:250px;
+}
+#Fecha{
+    margin-right: 0px;
+    float:left;
 }
 
 
