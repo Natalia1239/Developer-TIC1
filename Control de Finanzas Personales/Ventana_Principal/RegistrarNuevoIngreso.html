@@ -25,13 +25,32 @@
         <br />
         <font color="#187AEF"><b>Fecha</b>
         <br />
-        <input type="date" placeholder="" required /></font>
+        <input type="date" placeholder="Seleccionar fecha" required /></font>
       </div>
       <div class="Formulario" id="Hora">
         <br />
         <font color="#187AEF"><b>Hora</b>
         <br />
         <input type="time" placeholder="" required /></font>
+      </div>
+      <div>
+        <br>
+        <font size="4"color="#187AEF"><b>Categoria</b>
+        <br>
+        <select id="Categoria"required>
+            <option >Seleccionar categoria</option>
+            <option >Viajes</option>
+            <option >Salud</option>
+            <option >Comida</option>
+            <option >Ropa</option>
+            <option >Otro</option>
+        </select></font>
+      </div>
+      <div class="Formulario" id="Monto">
+        <br />
+        <font color="#187AEF"><b>Monto</b>
+        <br />
+        <input type="number"  placeholder="0.00$" min="1000" step="50"required /></font>
       </div>
     </form>
   </body>

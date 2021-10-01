@@ -14,7 +14,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 }
 form{
 
-    width:500px;
+    width:600px;
     background-color: rgb(222, 239, 240);
     padding: 50px;
     margin-top: 60px;
@@ -25,9 +25,10 @@ form{
 }
 
 input[type="date"],
-[type="time"]{
-    width: 30%;
-    height: 100%;
+[type="time"],
+[type="number"]{
+    width: 50%;
+    height: 50%;
     background: none;
     padding-top: 20px;
     border: none;
@@ -36,6 +37,21 @@ input[type="date"],
     font-family: "Calibri";
     color: #afafaf;
     margin: auto;
+    font-size: 20px;
+}
+select{
+    width: 42%;
+    height: 50%;
+    background: none;
+    padding-top: 20px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #bebebe;
+    font-family: "Calibri";
+    color: #afafaf;
+    margin: auto;
+    font-size: 20px;
+
 
 }
 .Formulario{
@@ -57,14 +73,24 @@ input[type="date"],
     font-family: Verdana ;
 }
 #Hora{
-    margin-left: 160px;
+    margin-left: 300px;
     position: relative;
-    right:250px;
+    right:150px;
 }
 #Fecha{
+    float: left;
+}
+#Monto{
+    margin-left: 400px;
+    position: relative;
+    right: 50px;
+    bottom: 55px;
+}
+#Categoria{
     margin-right: 0px;
     float:left;
 }
+
 
 
 
