@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Control de finanzas personales</title>
-    <link rel="stylesheet" href="Control de finanzas personales/Ventana_Principal/Estilo.css">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+    <link rel="stylesheet" href="Estilo.css">
 </head>
 <body>
 
     <section class = Iniciar_seccion>        
     <div>  
-        <img class = "VentanaPrincipal" src = "Control de finanzas personales/Ventana_Principal/IMAGENPRINCIPAL.png" width="100" height="445" class ="imagen">   
+        <img class = "VentanaPrincipal" src = "IMAGENPRINCIPAL.png" width="100" height="445" class ="imagen">   
     </div>
     <div>
         <section class ="VentanaPrincipal" >
@@ -36,7 +36,14 @@
             <input type="password" placeholder="Contraseña" name ="Contraseña" required>
             </div>
         </form>
-            <center><p><b class = "parrafo"><input type="checkbox">Recordar Usuario</input></b><a class="link"  href="ventana_AbrirCuentaNueva.html">¿Olvidó su contraseña?</a></p></center>
+            <center><p><b class = "parrafo"><input type="checkbox">Recordar Usuario</input></b><a class="link"  id="Modal" >¿Olvidó su contraseña?</a></p></center>
+            <div class="VentanaModal">
+                <header>Nueva Contraseña</header>
+                <label for="Modal">X</label>
+                <div class="Contenido">
+                    <p>Hola</p>
+                </div>
+            </div>
             <br>
 
             <center><button class= "boton" onclick="location.href='Control de Finanzas Personales/Ventana_Principal/MainPage.html'" ><p>Acceder</p></button></center>

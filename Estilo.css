@@ -83,3 +83,37 @@ input[type="email"]{
     margin: 15px;
 
 }
+#link:checked ~ .VentanaModal{
+    opacity: 1;
+    visibility: visible;
+}
+.VentanaModal{
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.Contenido{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+}
+.Contenido header{
+    padding: 10px;
+    background: #db8046;
+    color: #fff
+}
+.Contenido label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:#fff;
+    font-size: 15px;
+    cursor:pointer;
+}
