@@ -126,6 +126,7 @@ a{
     font-size: 25px;
     margin-left: 50px;
     cursor: pointer;
+    text-decoration-line: none;
 }
 nav{
     background: #fff;
@@ -144,7 +145,6 @@ ul{
 }
 #Ingresos{
     background: #4286f4;
-    position: relative;
     padding: 10px;
     border-radius:4px
 }
@@ -362,3 +362,62 @@ input[type="radio"]{
 }
 
 
+.tabla{
+    background: #fff;
+    width: 850px;
+    height: 250px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 650px;
+    margin-left: -200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+#menu{
+    color:rgb(155, 155, 155);
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
+.menu{
+    color:rgb(155, 155, 155);
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: -5px;
+
+}
+.derecha{
+    float:left;
+    margin-left: 10px;
+}
+.izquierda{
+    float: right;
+    margin-right: 10px;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+th,td{
+    border: solid 1px gray;
+    padding: 10px;
+}
+thead{
+    background-color: #187AEF;
+    color: #fff;
+
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #aab7c7;
+    color: #fff;
+
+}
+#aqui , .aqui{
+    color:#fff;
+    background: #187AEF;
+
+}
