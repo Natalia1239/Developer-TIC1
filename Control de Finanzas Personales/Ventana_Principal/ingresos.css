@@ -69,6 +69,13 @@ body {
   box-shadow: none;
 }
 
+.botondos:hover{
+    background-color: darkgreen;
+}
+.botonuno:hover{
+    background-color: darkgreen;
+}
+
 .bts {
   padding: 20px;
 }
@@ -113,6 +120,10 @@ body {
   /*Boton cerrar seccion*/
   float: right;
   font-size: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+.lbl-modal:hover{
+    background-color:rgb(35, 136, 48) ;
 }
 .contenido {
   padding: 15px;
@@ -133,6 +144,11 @@ nav{
     width: 300px;
     height: 592px;
 }
+ul:hover{
+    background-color: #9dbcec;
+}
+
+
 
 ul{
     background: #e5e8ee;
@@ -210,7 +226,11 @@ section{
     margin-left: 60px;
     color: #fff;
     font-size: 17px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
 
+}
+.lbl-modalnuevo:hover{
+    background-color: darkgreen;
 }
 
 .modalnuevo {
@@ -355,7 +375,11 @@ input[type="radio"]{
     font-size: 20px;
     border-radius: 0.2cm;
     font-family:"Calibri";
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
 
+}
+.boton:hover{
+    background-color: #73afe0;
 }
 .categoria{
     margin-left: 20px;
@@ -419,5 +443,6 @@ tr:hover td{
 #aqui , .aqui{
     color:#fff;
     background: #187AEF;
+    pointer-events:none;
 
 }
