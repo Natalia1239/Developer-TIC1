@@ -1,8 +1,153 @@
-
-<body>
-    <p>En desarrollo...</p>
-<a href="RegistrarNuevoIngreso.html">Registrar Ingreso</a>
-<br>
-<a href="MainPage.html">Volver</a>
-</body>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Contenido centrado-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingresos</title>
+    <link rel="stylesheet" href="ingresos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="RegistrarNuevoIngreso.css" />
+  </head>
+  <body>
+    <form>
+      <header id="principal">
+        <div>
+          <img
+            class="imagen"
+            src="—Pngtree—vector money saving icon_4271086.png"
+          />
+          <center>
+            <font class="titulo"
+              ><b>Controlador de Finanzas Personales</b></font
+            >
+          </center>
+          <input type="checkbox" id="btn-modal" />
+          <label for="btn-modal" class="lbl-modal"><b>Cerrar Seccion <i id="plus"class="fa-solid fa-person-running"></i></b></label>
+          <div class="modal">
+            <div class="contenedor">
+              <header id="vmodal">
+                <font size="5"
+                  ><center><b>Cerrar Seccion</b></center></font
+                >
+              </header>
+              <label for="btn-modal">X</label>
+              <div class="contenido">
+                <font class="csm">¿Le gustaria Cerrar seccion?</font>
+                <div class="bts">
+                  <button class="botonuno"><b>Aceptar</b></button>
+                  <button class="botondos"><b>Cancelar</b></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <nav>
+        <br />
+        <ul>
+          <a><i class="fa-solid fa-house-chimney"></i> Inicio</a>
+        </ul>
+        <ul>
+          <a><i class="fa-solid fa-file-invoice-dollar"></i> Egresos</a>
+        </ul>
+        <ul>
+          <a><i class="fa-solid fa-money-check-dollar"></i> Ingresos</a>
+        </ul>
+        <ul>
+          <a><i class="fa-solid fa-chart-line"></i> Reporte</a>
+        </ul>
+        <br />
+        <br />
+        <ul>
+          <a><i class="fa-solid fa-screwdriver-wrench"></i> Ajustes</a>
+        </ul>
+      </nav>
+      <section>
+        <header id="Ingresos">
+            <font class="ingresos"><center><b>Ingresos</b></center></font>
+        </header>
+            <div class="contenedores">
+                <font class="texto"><i class="fa-solid fa-credit-card"></i><b> $24.500</b></font>
+                <input type="checkbox" id="btn-modalnuevo">
+                <label for="btn-modalnuevo" class="lbl-modalnuevo"><i id="plus"class="fa-solid fa-plus"></i><b> Nuevo</b></label>
+                <div class="modalnuevo">
+                    <div class="contenedornuevo">
+                        <div class="contenidonuevo">
+                            <form id="registrar">
+                                <div>
+                                  <font class="categoria"size="7" color="#187AEF" , face="Calibri"
+                                    ><b>Nuevo ingreso</b></font>
+                                    <a class="Volver"href="Ingresos.html"><b>X</b></a>
+                                </div>
+                                <div class="Formulario" id="Fecha">
+                                  <br />
+                                  <font color="#187AEF"><b>Fecha</b>
+                                  <br />
+                                  <input type="date" placeholder="Seleccionar fecha" required /></font>
+                                </div>
+                                <div class="Formulario" id="Hora">
+                                  <br />
+                                  <font color="#187AEF"><b>Hora</b>
+                                  <br />
+                                  <input type="time" placeholder="" required /></font>
+                                </div>
+                                <div>
+                                  <br>
+                                  <font class="categoria"size="4"color="#187AEF"><b>Categoria</b>
+                                  <br>
+                                  <select id="Categoria" required>
+                                      <option selected disabled>Seleccionar categoria</option>
+                                      <option >Viajes</option>
+                                      <option >Salud</option>
+                                      <option >Comida</option>
+                                      <option >Ropa</option>
+                                      <option >Otro</option>
+                                  </select></font>
+                                </div>
+                                <div class="Formulario" id="Monto">
+                                  <br />
+                                  <font color="#187AEF"><b>Monto</b>
+                                  <br />
+                                  <input type="number"  placeholder="0.00$" min="1000" step="50"required /></font>
+                                </div>
+                                <!--<div>
+                                    <hr class="hr">
+                                </div>
+                                <div class="metododepago">
+                                  <br>
+                                  <font size="5"color="#187AEF"><b>Metodo de pago</b></font>
+                                  <br>
+                                </div>
+                                <div class="radioboton">
+                                  <input type="radio" name="metododepago" id="uno"><b> Efectivo</b></input>
+                                  <input type="radio" name="metododepago" id="dos"><b> Tarjeta Crédito</b></input>
+                                  <input type="radio" name="metododepago" id="tres"><b> Tarjeta Débito</b></input>      
+                                </div>-->
+                                <div>
+                                    <center><button class="boton"><b>Agregar</b></button></center>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+      </section>
+    </div>
+    </form>
+  </body>
 </html>

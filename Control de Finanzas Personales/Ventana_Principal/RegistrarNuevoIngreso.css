@@ -1,12 +1,12 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
-    justify-content: center; /* Para mover con la hoja*/
+    justify-content: center;
     align-content: center;
-    display: flex; /* Hasta aqui*/
+    display: flex;
     background: #000046;
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046); 
+background: linear-gradient(to right, #1CB5E0, #000046); 
 
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@ form{
     font-family:"Calibri"; 
     border-radius: 0.2cm;
     height: 350px;
-}
+}*/
 .metododepago{
     height: 80px;
 }
@@ -79,20 +79,21 @@ hr{
     font-size: 23px;
     float:right;
     position: relative;
-    top: -40px;
-    left: 30px;
+    top: 4px;
+    left: -10px;
     font-family: Verdana ;
 }
 #Hora{
-    margin-left: 300px;
+    margin-left: 275px;
     position: relative;
     right:150px;
 }
 #Fecha{
     float: left;
+    margin-left: 20px;
 }
 #Monto{
-    margin-left: 400px;
+    margin-left: 420px;
     position: relative;
     right: 50px;
     bottom: 55px;
@@ -100,10 +101,12 @@ hr{
 #Categoria{
     margin-right: 0px;
     float:left;
+    margin-left: 20px;
 }
 input[type="radio"]{
     
     font-size: 20px;
+    margin-left: 20px;
 }
 #uno{
     float: left;
@@ -124,6 +127,9 @@ input[type="radio"]{
     border-radius: 0.2cm;
     font-family:"Calibri";
 
+}
+.categoria{
+    margin-left: 20px;
 }
 
 
