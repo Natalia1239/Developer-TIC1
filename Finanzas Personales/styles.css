@@ -1,11 +1,89 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
 
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #ffffff;
+    color: #3972F5;
+    transition: all 0.3s;
+}
 
-.col-6 {
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #ffffff;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #3972F5;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
     
-    padding-bottom: 100%;
-    margin-bottom: -100%;
+    
 }
 
-.col {
-    height: 100%;
+#sidebar ul li a:hover {
+    color:#ffffff;
+    background: #3972F5;
+    
 }
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #3972F5;
+    background: #3972F5;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+ul.CTAs {
+    padding: 20px;
+    
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+
+a.button {
+    background: #3972F5;
+    color: #ffffff;
+}
+
+
+
+
+ 

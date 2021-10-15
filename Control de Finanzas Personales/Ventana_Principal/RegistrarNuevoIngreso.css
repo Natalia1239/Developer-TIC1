@@ -1,4 +1,4 @@
-/*body{
+body{
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -22,7 +22,7 @@ form{
     font-family:"Calibri"; 
     border-radius: 0.2cm;
     height: 350px;
-}*/
+}
 .metododepago{
     height: 80px;
 }
